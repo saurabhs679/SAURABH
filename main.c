@@ -1,6 +1,11 @@
 #include<stdio.h>
+void sum(int x,int y)
+{	
+	int sum=x+y;
+}
 int main()
 {
-	printf("Hello Git!\n");
+	printf("sum :");
+	sum(2,3);
 	return 0;
 }
